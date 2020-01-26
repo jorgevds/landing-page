@@ -1,0 +1,58 @@
+.centered {
+    background-color: rgba(0,0,0, 0.8); 
+    font: Helvetica;
+    border: 3px double silver;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 65%;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+#headline {
+    font-size: 40px;
+    color: rgb(211, 198, 198);
+    
+}
+
+#direction {
+    color: rgb(245, 147, 115);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+button {
+    size: 20px;
+    border: 2px solid rgb(143, 44, 13);
+    padding: 10px 20px;
+    background-color: rgb(195, 73, 38);
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: rgb(220, 73, 38);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(200, 198, 198);
+    font-weight: 200px;
+}
+
+.responsive {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(4px);   
+}
