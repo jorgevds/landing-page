@@ -24,7 +24,7 @@
     font-size: 25px;
 }
 
-button {
+.button {
     size: 20px;
     border: 2px solid rgb(143, 44, 13);
     padding: 10px 20px;
@@ -38,7 +38,7 @@ button {
     transition: .4s;
 }
 
-button:hover {
+.button:hover {
     background-color: rgb(220, 73, 38);
 }
 
